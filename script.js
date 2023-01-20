@@ -19,7 +19,7 @@ function show_data(data)
 {
   _rand=randomIntFromInterval(0,data.length-1);
   console.log(data[_rand]);
-  _img=__url+'img/'+data[_rand];
+  _img=data[_rand];
   console.log(_img); //image data , now send to make style 
   make_style(_img)
   
