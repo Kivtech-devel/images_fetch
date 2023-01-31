@@ -29,5 +29,5 @@ function show_data(data)
 fetch(__url+'img.json')
 .then((response) => response.json())
 .then((data) => {
-  show_data(data)
+  show_data(data.images)
 });
