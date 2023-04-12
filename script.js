@@ -1,4 +1,4 @@
-__url='https://kivtech-devel.github.io/random_img_json/'
+__url='https://siddht1.github.io/random_img_json/'
 // updated url
 function randomIntFromInterval(min, max) { // min and max included 
   return Math.floor(Math.random() * (max - min + 1) + min)
